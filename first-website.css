@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'moonlessFont';
-    src: url('/Ubuntu/home/namxada/aa-projects/first-website/fonts/moonless-sc-webfontkit/moonlesssc-regular_1-webfont.woff') format('woff');
+    src: url('fonts/moonless-sc-webfontkit/moonlesssc-regular_1-webfont.woff') format('woff');
 }
 
 @font-face{
     font-family: 'pompiereFont';
-    src: url('/Ubuntu/home/namxada/aa-projects/first-website/fonts/pompiere-webfontkit/pompiere-regular-webfont.woff') format('woff');
+    src: url('fonts/pompiere-webfontkit/pompiere-regular-webfont.woff') format('woff');
 }
 
 @counter-style cats{
