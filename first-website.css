@@ -1,0 +1,81 @@
+@font-face{
+    font-family: 'moonlessFont';
+    src: url('/Ubuntu/home/namxada/aa-projects/first-website/fonts/moonless-sc-webfontkit/moonlesssc-regular_1-webfont.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'pompiereFont';
+    src: url('/Ubuntu/home/namxada/aa-projects/first-website/fonts/pompiere-webfontkit/pompiere-regular-webfont.woff') format('woff');
+}
+
+.navbar{
+    width: 100%;
+    list-style-type: none;
+    font-family: 'moonlessFont';
+    font-weight: bold;
+    font-size: x-large;
+    display: inline-flex;
+    justify-content: space-around;
+    font-style: white;
+    background-color: #7ad6b1;
+    padding: 1em;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #7ad6b1;
+    padding: 1em;
+}
+
+a:active{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'moonlessFont';
+    font-weight: bold;
+    font-size: 72px;
+    color: #6c7a78;
+}
+
+h2{
+    font-family: 'moonlessFont';
+    font-weight: bold;
+    font-size: 50px;
+    color: #6c7a78;
+}
+
+.backstory{
+    width: 1200px;
+}
+
+.personality{
+    width: 1200px;
+}
+
+.toys{
+    width: 1200px;
+}
+
+p{
+    font-family: 'pompiereFont';
+    font-size: 22px;
+}
