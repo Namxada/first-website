@@ -187,3 +187,28 @@ a.recLink:active{
     text-decoration: underline;
     color: #6c7a78;
 }
+
+.gallery{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 2em;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.blinxbag,
+.blinxyawn,
+.blinxsniff,
+.blinxbox,
+.blinxsmile,
+.blinxnight{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSize{
+    max-width: 500px;
+    max-height: 500px;
+    padding: 1em;
+}
