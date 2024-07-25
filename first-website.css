@@ -79,3 +79,76 @@ p{
     font-family: 'pompiereFont';
     font-size: 22px;
 }
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+
+legend{
+    font-family: 'moonlessFont';
+    font-weight: bold;
+    font-size: 50px;
+    color: #6c7a78;
+}
+
+label{
+    font-family: 'pompiereFont';
+    font-size: 24px;
+}
+
+input{
+    margin: 1em;
+    font-family: 'pompiereFont';
+    font-size: 20px;
+}
+
+
+#commentbox{
+    font-family: 'pompiereFont';
+    font-size: 20px;
+    max-width: 500px;
+}
+
+#submit{
+    border: 1px solid black;
+    font-family: 'pompiereFont';
+    font-size: 20px;
+    padding: 0.2em 1em;
+    margin: 1em;
+}
+
+#submit:hover{
+    border: 1px solid white;
+    font-family: 'pompiereFont';
+    font-size: 20px;
+    color: white;
+    background-color: #7ad6b1;
+}
+
+#submit:active{
+    border: 1px solid #6c7a78;
+    font-family: 'pompiereFont';
+    font-size: 20px;
+    color: #6c7a78;
+    background-color: #7ad6b1;
+}
+
+.checks{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input#checkyes{
+    margin: 0.5em;
+    margin-left: 0;
+}
+
+input#checkno{
+    margin: 0.5em;
+    margin-left: 3em;
+}

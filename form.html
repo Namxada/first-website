@@ -10,7 +10,7 @@
 
     <body>
         <nav>
-            <ul>
+            <ul class="navbar">
                 <li><a href="/Ubuntu/home/namxada/aa-projects/first-website/main-page.html">Home</a></li>
                 <li><a href="/Ubuntu/home/namxada/aa-projects/first-website/form.html">Thoughts</a></li>
                 <li><a href="/Ubuntu/home/namxada/aa-projects/first-website/recommendations.html">Recommendations</a></li>
@@ -29,16 +29,18 @@
                 </fieldset>
                 <fieldset>
                     <legend>Are you a cat person?</legend>
-                    <input type="checkbox" id="checkyes" name="yes">
-                    <label for="checkyes">yes</label>
-                    <input type="checkbox" id="checkno" name="no">
-                    <label for="checkno">no</label>
+                    <div class="checks">
+                        <input type="checkbox" id="checkyes" name="yes">
+                        <label for="checkyes" id="checkyes">yes</label>
+                        <input type="checkbox" id="checkno" name="no">
+                        <label for="checkno">no</label>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>What would you like to say to Blinx?</legend>
-                    <input type="textarea" id="commentbox">
+                    <textarea id="commentbox" rows="5" cols="40"></textarea>
+                    <button type="button" id="submit">Submit</button>
                 </fieldset>
-                <button type="button" id="submit">Submit</button>
             </form>
 
         </div>
